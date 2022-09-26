@@ -1,6 +1,7 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import Widget from '../components/WorldIDWidget';
 
 const Home: NextPage = () => {
   return (
@@ -14,8 +15,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='mx-auto flex flex-col items-center pt-12'>
+      <main className='mx-auto flex flex-col items-center pt-12 gap-y-4'>
         <ConnectButton />
+        <Widget />
       </main>
     </div>
   );
