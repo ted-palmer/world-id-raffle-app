@@ -1,6 +1,6 @@
 # World ID Example - Raffle (WIP)
 
-This repository contains an example dapp for a raffle integrated with World ID.
+This repository contains an example dapp for a raffle integrated with World ID. In this web app, users can subscribe to a raffle of a ERC721 and the winner will be randomly selected and transferred the NFT.
 
 Check out the [verified smart contract](https://mumbai.polygonscan.com/address/0x9f17fbe6d58e28f7434fd052930bfc83f6e1411e#code) on the Polygon Mumbai Testnet (address `0x9F17FBe6D58e28F7434fD052930BfC83F6E1411E`) 
 
