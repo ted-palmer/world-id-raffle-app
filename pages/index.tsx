@@ -1,6 +1,7 @@
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
+import NFTViewer from '../components/NFTViewer';
 import Widget from '../components/WorldIDWidget';
 
 const Home: NextPage = () => {
@@ -17,6 +18,7 @@ const Home: NextPage = () => {
 
       <main className='mx-auto flex flex-col items-center pt-12 gap-y-4'>
         <ConnectButton />
+        <NFTViewer />
         <Widget />
       </main>
     </div>
